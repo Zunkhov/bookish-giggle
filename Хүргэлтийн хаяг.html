@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хүргэлтийн хаяг</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Хаяг Сонгох</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Газрын зургаар</a></li>
+                <li><a href="#">Дүүрэг хороо</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <label for="txList">
+                <input type="text" id="txList" placeholder="Жишээ нь Бзд 5-р хороо" list="Duureg">
+                <datalist id="Duureg">
+                    <option value="БГД"></option>
+                    <option value="БЗД"></option>
+                    <option value="ХУД"></option>
+                    <option value="СХД"></option>
+                    <option value="СБД"></option>
+                    <option value="ЧД"></option>
+                </datalist> 
+            </label>
+            <label for="tcList">
+                <input type="text" id="tcList" list="Хороо" placeholder="Сонгох">
+                <datalist id="Хороо">
+                    <option value="1 хороо"></option>
+                    <option value="2 хороо"></option>
+                    <option value="3 хороо"></option>
+                    <option value="4 хороо"></option>
+                    <option value="5 хороо"></option>
+                    <option value="6 хороо"></option>
+                    <option value="7 хороо"></option>
+                    <option value="8 хороо"></option>
+                </datalist>
+            </label>
+        </article>
+    </main>
+</body>
+</html>

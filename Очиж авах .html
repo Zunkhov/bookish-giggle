@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Очиж авах</title>
+</head>
+<body>
+    <header class="header">
+        <img src="" alt="Logo" class="logo">
+        <nav class="nuur_nav">
+            <ul>
+                <li><a href="lab1.html">Үйлчилгээ</a></li>
+                <li><a href="Очиж авах .html">Захиалгууд</a></li>
+                <li><a href="#">Газрын зураг</a></li>
+                <li><a href="#">Профайл</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="/submit-order" method="POST" class="order-form">
+            <article>
+                <h3>Очиж авах газрын хаяг</h3>
+                <label for="TextOC">
+                    <input type="text" id="TextOC" placeholder="Жишээ нь ХУД" list="Duureg">
+                    <datalist id="Duureg">
+                        <option value="БГД"></option>
+                        <option value="БЗД"></option>
+                        <option value="ХУД"></option>
+                        <option value="СХД"></option>
+                        <option value="СБД"></option>
+                        <option value="ЧД"></option>
+                    </datalist>
+                </label>
+                <label for="TextUC">
+                    <input type="text" id="TextUC" placeholder="3-Хороо" list="Хороо">
+                    <datalist id="Хороо">
+                        <option value="1 хороо"></option>
+                        <option value="2 хороо"></option>
+                        <option value="3 хороо"></option>
+                        <option value="4 хороо"></option>
+                        <option value="5 хороо"></option>
+                        <option value="6 хороо"></option>
+                        <option value="7 хороо"></option>
+                        <option value="8 хороо"></option>
+                    </datalist>
+                </label>
+            </article>
+            <article>
+                <h3>Хүргүүлэх хаяг</h3>
+                <label for="TextOC">
+                    <input type="text" id="TextOC" placeholder="Жишээ нь ХУД" list="Duureg">
+                    <datalist id="Duureg">
+                        <option value="БГД"></option>
+                        <option value="БЗД"></option>
+                        <option value="ХУД"></option>
+                        <option value="СХД"></option>
+                        <option value="СБД"></option>
+                        <option value="ЧД"></option>
+                    </datalist>
+                </label>
+                <label for="TextUC">
+                    <input type="text" id="TextUC" placeholder="3-Хороо" list="Хороо">
+                    <datalist id="Хороо">
+                        <option value="1 хороо"></option>
+                        <option value="2 хороо"></option>
+                        <option value="3 хороо"></option>
+                        <option value="4 хороо"></option>
+                        <option value="5 хороо"></option>
+                        <option value="6 хороо"></option>
+                        <option value="7 хороо"></option>
+                        <option value="8 хороо"></option>
+                    </datalist>
+                </label>
+            </article>
+            <article>
+                <h3>Ачааны жин</h3>
+                <label for="weight">Ачааны жин (кг):</label>
+                <input type="text" id="weight" name="weight" placeholder="Жин оруулна уу">
+            </article>
+
+            <button type="submit">Захиалга илгээх</button>
+        </form>
+    </main>
+</body>
+</html>
